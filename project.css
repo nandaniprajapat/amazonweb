@@ -1,0 +1,172 @@
+*{
+margin:0;
+font-family: Arial;
+border:border-box;
+}
+.navbar{
+height:60px;
+background-color:#0f1111;
+color:white;
+display:flex;
+align-items:center;
+justify-content:space-evenly;
+}
+.nav-logo{
+ height:50px;
+ width:100px;
+}
+.logo{
+    background-image : url("ChatGPT\ Image\ Jun\ 26\,\ 2026\,\ 02_00_24\ PM.png");
+    background-size:cover;
+height:50px;
+width:100px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/**box2**/
+.add-first{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left:15px
+}
+.add-sec{
+margin-left:3px;
+    font-size:1rem;
+}.add-icon{
+    display:flex;
+    align-items:center;
+}
+/**box3**/
+.nav-search{
+    display:flex;
+    justify-content:space-evenly;
+
+    /**background-color:white;**/
+    align-items:center;
+    background-color:pink;
+   width:620px;
+   height:40px;
+   border-radius:4px;
+
+
+} 
+.nav-search:hover{
+border:2px solid orange;
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+    height:40px;
+}
+.search-select{
+    width:50px;
+    height:40px;
+    background-color:#f3f3f3;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}.search-icon{
+    width:45px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.2rem;
+    background-color: #febd68;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    color:#0f1111;
+}
+/**box4**/
+/**.nav-language{ 
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    border: 1px solid transparent;
+    padding: 8px 10px;**/
+    
+    
+.nav-language:hover{
+    border:1.5px solid white;
+}
+/**box5**/
+span{
+    font-size: 0.7rem;
+}
+ .nav-second{
+   font-size:0.85;
+font-weight:700;
+
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart:hover{
+    border:2px solid #f3f3f3;
+}
+/**panel**/
+.panel{
+    height:40px;
+    background-color:#222f3d;
+    display:flex;
+    justify-content:space evenly;
+    color:white;
+    align-items: center;
+
+}.panel-option p{
+    display:inline;
+    margin-left: 30px;
+
+}.panel-option{
+    width:80%;
+    font-size: 0.85rem;
+} .panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/**hero section**/
+.hero-section{
+    
+    display:flex;
+    justify-content: center;
+    background-size: cover;
+    align-items:flex-end;
+}
+.box{
+    /* border:2px solid black; */
+    height: 350px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+ margin-top:10px;
+}
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    background-color: rgb(195, 148, 164);
+}
+.box-img{
+    height: 300px;
+   
+    background-size: calc(50%); 
+  margin-top: 1rem;  
+      margin-top: 1rem;  
+     
+}
+ .box-content{ 
+    margin-left: 20px;
+    margin-right: 20px;
+ } 
+.box-content p{
+    color:rgb(71, 71, 141)
+}
+
